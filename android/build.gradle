@@ -25,6 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.ixsans.text_to_speech'
+
     compileSdkVersion 30
 
     sourceSets {
